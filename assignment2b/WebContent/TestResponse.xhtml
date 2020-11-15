@@ -1,0 +1,23 @@
+<!--
+  Author: Donald Trowbridge
+  Date: 11/13/2020
+  Class: CST235-O500
+  Statement: This work is my own.
+ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head>
+	<title>JSF Response Page</title>
+</h:head> 
+<body> 
+	<label>First Name: </label>
+	<h:outputText id="firstname" value="#{User.firstName}"/>
+	<br />
+	<label>Last Name: </label>
+	<h:outputText id="lastname" value="#{User.lastName}" />
+</body> 
+</html>
